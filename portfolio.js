@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let navbar = document.querySelector('.navbar');
   let sections = document.querySelectorAll('section');
   let navLinks = document.querySelectorAll('header nav a');
-  let header = document.querySelector('header'); // Declare the header variable
+  let header = document.querySelector('header');
 
   menuIcon.addEventListener('click', () => {
     menuIcon.classList.toggle('bx-x');
